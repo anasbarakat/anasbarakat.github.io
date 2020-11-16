@@ -5,12 +5,20 @@
     <link>https://anasbarakat.github.io/</link>
       <atom:link href="https://anasbarakat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2020 17:40:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Oct 2020 11:00:00 +0200</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/</link>
     </image>
+    
+    <item>
+      <title>Invited talk - Seminar of the &#39;Image, Optimization and Probabilities&#39; (IOP) team</title>
+      <link>https://anasbarakat.github.io/talk/sem_bordeaux20/</link>
+      <pubDate>Thu, 15 Oct 2020 11:00:00 +0200</pubDate>
+      <guid>https://anasbarakat.github.io/talk/sem_bordeaux20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Talk - 2nd Symposium on Machine Learning and Dynamical Systems 2020</title>
@@ -21,7 +29,7 @@
     </item>
     
     <item>
-      <title>Talk - SMAI MODE days 2020</title>
+      <title>Talk - SMAI MODE days 2020 (Laureate of the Dodu prize)</title>
       <link>https://anasbarakat.github.io/talk/smai_mode20/</link>
       <pubDate>Mon, 07 Sep 2020 15:00:00 +0200</pubDate>
       <guid>https://anasbarakat.github.io/talk/smai_mode20/</guid>
@@ -45,7 +53,7 @@
     </item>
     
     <item>
-      <title>Convergence Analysis of a Momentum Algorithm with Adaptive Step Size for Non-Convex Optimization</title>
+      <title>Convergence Rates of a Momentum Algorithm with Bounded Adaptive Step Size for Non-Convex Optimization</title>
       <link>https://anasbarakat.github.io/publication/adam-discrete/</link>
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/adam-discrete/</guid>
