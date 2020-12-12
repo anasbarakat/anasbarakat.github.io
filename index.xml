@@ -5,12 +5,20 @@
     <link>https://anasbarakat.github.io/</link>
       <atom:link href="https://anasbarakat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Oct 2020 11:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/</link>
     </image>
+    
+    <item>
+      <title>Stochastic optimization with momentum:  convergence, fluctuations, and traps avoidance</title>
+      <link>https://anasbarakat.github.io/publication/adamplus20/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/adamplus20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Invited talk - Seminar of the &#39;Image, Optimization and Probabilities&#39; (IOP) team</title>

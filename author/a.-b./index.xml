@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Stochastic optimization with momentum:  convergence, fluctuations, and traps avoidance</title>
+      <link>https://anasbarakat.github.io/publication/adamplus20/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/adamplus20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Convergence and Dynamical Behavior of the ADAM Algorithm for Non-Convex Stochastic Optimization</title>
       <link>https://anasbarakat.github.io/publication/continuous-adam/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
