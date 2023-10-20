@@ -2,17 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://anasbarakat.github.io/</loc>
+    <lastmod>2024-07-08T14:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/talk/mlds2024-symposium/</loc>
+    <lastmod>2024-07-08T14:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/talk/</loc>
+    <lastmod>2024-07-08T14:45:00+00:00</lastmod>
+  </url><url>
     <loc>https://anasbarakat.github.io/publication-type/1/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/amrit-singh-bedi/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/author/anas-barakat/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/authors/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication/8-independent-cmpg/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/niao-he/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/philip-jordan/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication_types/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication/9-brlgu/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/souradip-chakraborty/</loc>
+    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/author/ilyas-fatkhullin/</loc>
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
@@ -21,15 +51,6 @@
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/publication/7-zero-sum-lqr/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/niao-he/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication_types/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication/</loc>
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/publication/6-rl-gen-utility-var-reduc/</loc>
@@ -42,9 +63,6 @@
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/talk/iccopt22/</loc>
-    <lastmod>2022-07-28T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/talk/</loc>
     <lastmod>2022-07-28T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/publication/4-actor-critic/</loc>

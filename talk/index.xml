@@ -5,12 +5,20 @@
     <link>https://anasbarakat.github.io/talk/</link>
       <atom:link href="https://anasbarakat.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jul 2022 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2024 14:45:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://anasbarakat.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>Invited talk - 4th Symposium on Machine Learning and Dynamical Systems</title>
+      <link>https://anasbarakat.github.io/talk/mlds2024-symposium/</link>
+      <pubDate>Mon, 08 Jul 2024 14:45:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/talk/mlds2024-symposium/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Invited talk - ICCOPT 2022</title>
