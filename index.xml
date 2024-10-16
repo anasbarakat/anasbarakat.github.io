@@ -5,12 +5,36 @@
     <link>https://anasbarakat.github.io/</link>
       <atom:link href="https://anasbarakat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2024 14:45:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/</link>
     </image>
+    
+    <item>
+      <title>Beyond Expected Returns: A Policy Gradient Algorithm for Cumulative Prospect Theoretic Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Sample Complexity of a Policy Gradient Algorithm with Occupancy Approximation for General Utility Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
+      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Invited talk - 4th Symposium on Machine Learning and Dynamical Systems</title>
@@ -21,17 +45,9 @@
     </item>
     
     <item>
-      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
-      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Policy Mirror Descent with Lookahead</title>
       <link>https://anasbarakat.github.io/publication/10-pmdlookahead/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/10-pmdlookahead/</guid>
       <description></description>
     </item>
@@ -41,14 +57,6 @@
       <link>https://anasbarakat.github.io/publication/8-independent-cmpg/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/8-independent-cmpg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning with General Utilities: Scaling to Large State Action Spaces via Occupancy Measure Approximation</title>
-      <link>https://anasbarakat.github.io/publication/9-brlgu/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/9-brlgu/</guid>
       <description></description>
     </item>
     

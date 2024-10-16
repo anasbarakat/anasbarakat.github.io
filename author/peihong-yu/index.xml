@@ -5,7 +5,7 @@
     <link>https://anasbarakat.github.io/author/peihong-yu/</link>
       <atom:link href="https://anasbarakat.github.io/author/peihong-yu/index.xml" rel="self" type="application/rss+xml" />
     <description>Peihong Yu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Peihong Yu</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Reinforcement Learning with General Utilities: Scaling to Large State Action Spaces via Occupancy Measure Approximation</title>
-      <link>https://anasbarakat.github.io/publication/9-brlgu/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/9-brlgu/</guid>
+      <title>On the Sample Complexity of a Policy Gradient Algorithm with Occupancy Approximation for General Utility Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
       <description></description>
     </item>
     
