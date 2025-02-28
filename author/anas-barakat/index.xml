@@ -5,100 +5,53 @@
     <link>https://anasbarakat.github.io/author/anas-barakat/</link>
       <atom:link href="https://anasbarakat.github.io/author/anas-barakat/index.xml" rel="self" type="application/rss+xml" />
     <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://anasbarakat.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
       <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/author/anas-barakat/</link>
     </image>
     
     <item>
-      <title>Beyond Expected Returns: A Policy Gradient Algorithm for Cumulative Prospect Theoretic Reinforcement Learning</title>
-      <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
-      <description></description>
+      <title>Anas Barakat</title>
+      <link>https://anasbarakat.github.io/author/anas-barakat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/author/anas-barakat/</guid>
+      <description>&lt;p&gt;I am currently a research fellow at Singapore University of Technology and Design working with 
+&lt;a href=&#34;https://scholar.google.com/citations?user=Ar4h7jkAAAAJ&amp;amp;hl=fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgios Piliouras&lt;/a&gt; and 
+&lt;a href=&#34;https://sites.google.com/site/antoniosvarvitsiotis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonios Varvitsiotis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My research interests lie in the span of optimization, multi-agent learning, and reinforcement learning. I am broadly interested in understanding and designing optimization and multi-agent learning algorithms for sequential decision-making motivated by machine learning, RL, and multi-agent RL applications using tools from stochastic approximation, optimization, game theory, and dynamical systems.&lt;/p&gt;
+&lt;p&gt;Previously, I was a postdoctoral fellow at ETH Zurich working with 
+&lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Niao He&lt;/a&gt; in the department of computer science.
+I obtained my PhD in applied mathematics and computer science from 
+&lt;a href=&#34;https://www.ip-paris.fr/en/home-en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institut Polytechnique de Paris&lt;/a&gt; at 
+&lt;a href=&#34;https://www.telecom-paris.fr/en/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Télécom Paris&lt;/a&gt; under the supervision of 
+&lt;a href=&#34;https://bianchi.wp.imt.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pascal Bianchi&lt;/a&gt; and 
+&lt;a href=&#34;http://www-syscom.univ-mlv.fr/~whachem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Walid Hachem&lt;/a&gt;.
+I received my engineering Master&amp;rsquo;s degree in applied mathematics and computer science from Télécom Paris and a Master&amp;rsquo;s degree in data science from Université Paris Saclay.&lt;/p&gt;
+&lt;!--
+&lt;p style=&#34;text-align: justify;&#34;&gt; &lt;/p&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt; 
+My research interests lie in the span of optimization, multi-agent learning and reinforcement learning. 
+I am broadly interested in understanding and designing optimization and multi-agent learning algorithms for sequential decision making motivated by machine learning, RL and multi-agent RL applications using tools from stochastic approximation, optimization, game theory and dynamical systems. 
+
+Previously, I was a postdoctoral fellow at ETH Zurich working with [Niao He](https://odi.inf.ethz.ch/niaohe.html) in the department of computer science. 
+I obtained my PhD in applied mathematics and computer science from [Institut Polytechnique de Paris](https://www.ip-paris.fr/en/home-en/) at [Télécom Paris](https://www.telecom-paris.fr/en/home) under the supervision of [Pascal Bianchi](https://bianchi.wp.imt.fr/) and [Walid Hachem](http://www-syscom.univ-mlv.fr/~whachem/).
+I received my engineering Master&#39;s degree in applied mathematics and computer science from Télécom Paris and a Master&#39;s degree in data science from Université Paris Saclay.
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;You can find more information about me on my 
+&lt;a href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- **News**
+
+- Oct. 2024: Happy to join SUTD as a research fellow to work with Georgios Piliouras and Antonios Varvitsiotis! 
+- Sep. 2024: Our paper with Kimon Protopapas `Policy Mirror Descent with Lookahead&#39; got accepted to NeurIPS 2024. 
+--&gt;</description>
     </item>
     
-    <item>
-      <title>On the Sample Complexity of a Policy Gradient Algorithm with Occupancy Approximation for General Utility Reinforcement Learning</title>
-      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
-      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Policy Mirror Descent with Lookahead</title>
-      <link>https://anasbarakat.github.io/publication/10-pmdlookahead/</link>
-      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/10-pmdlookahead/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Independent Learning in Constrained Markov Potential Games</title>
-      <link>https://anasbarakat.github.io/publication/8-independent-cmpg/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/8-independent-cmpg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity</title>
-      <link>https://anasbarakat.github.io/publication/7-zero-sum-lqr/</link>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/7-zero-sum-lqr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space</title>
-      <link>https://anasbarakat.github.io/publication/6-rl-gen-utility-var-reduc/</link>
-      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/6-rl-gen-utility-var-reduc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stochastic Policy Gradient Methods: Improved Sample Complexity for Fisher-non-degenerate Policies</title>
-      <link>https://anasbarakat.github.io/publication/5-pg-fisher-non-deg/</link>
-      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/5-pg-fisher-non-deg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analysis of a Target-Based Actor-Critic Algorithm with Linear Function Approximation</title>
-      <link>https://anasbarakat.github.io/publication/4-actor-critic/</link>
-      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/4-actor-critic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contributions to non-convex stochastic optimization and reinforcement learning</title>
-      <link>https://anasbarakat.github.io/publication/thesis/</link>
-      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stochastic optimization with momentum:  convergence, fluctuations, and traps avoidance</title>
-      <link>https://anasbarakat.github.io/publication/3-adamplus20/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/3-adamplus20/</guid>
-      <description></description>
-    </item>
+  </channel>
+</rss>
+   </item>
     
     <item>
       <title>Convergence and Dynamical Behavior of the ADAM Algorithm for Non-Convex Stochastic Optimization</title>
