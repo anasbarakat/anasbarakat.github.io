@@ -5,12 +5,28 @@
     <link>https://anasbarakat.github.io/</link>
       <atom:link href="https://anasbarakat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Apr 2025 22:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
       <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/</link>
     </image>
+    
+    <item>
+      <title>Invited talk - Finance and RL Talks</title>
+      <link>https://anasbarakat.github.io/talk/talk-fin-rl25/</link>
+      <pubDate>Mon, 21 Apr 2025 22:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/talk/talk-fin-rl25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimistic Online Learning in Symmetric Cone Games</title>
+      <link>https://anasbarakat.github.io/publication/13-sym-cone-games/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/13-sym-cone-games/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Prospect-Theoretic Policy Gradient Algorithm for Behavioral Alignment in Reinforcement Learning</title>
@@ -41,6 +57,14 @@
       <link>https://anasbarakat.github.io/talk/mlds2024-symposium/</link>
       <pubDate>Mon, 08 Jul 2024 14:45:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/talk/mlds2024-symposium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talk - SUTD Group Meeting</title>
+      <link>https://anasbarakat.github.io/talk/talk-online-sutd/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/talk/talk-online-sutd/</guid>
       <description></description>
     </item>
     

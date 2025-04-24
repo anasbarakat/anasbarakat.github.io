@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wayne Lin | Anas Barakat</title>
+    <link>https://anasbarakat.github.io/author/wayne-lin/</link>
+      <atom:link href="https://anasbarakat.github.io/author/wayne-lin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wayne Lin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
+      <title>Wayne Lin</title>
+      <link>https://anasbarakat.github.io/author/wayne-lin/</link>
+    </image>
+    
+    <item>
+      <title>Optimistic Online Learning in Symmetric Cone Games</title>
+      <link>https://anasbarakat.github.io/publication/13-sym-cone-games/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/13-sym-cone-games/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
