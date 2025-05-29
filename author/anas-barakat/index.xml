@@ -22,15 +22,22 @@
 &lt;a href=&#34;https://sites.google.com/site/antoniosvarvitsiotis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonios Varvitsiotis&lt;/a&gt;.&lt;/p&gt;
 &lt;p style=&#34;text-align: justify;&#34;&gt; &lt;/p&gt;
 &lt;div style=&#34;text-align: justify&#34;&gt; 
-My research lies at the intersection of multi-agent learning, reinforcement learning, and optimization. I focus on the design and analysis of learning algorithms for sequential decision-making in strategic, dynamic, and uncertain environments. Motivated by applications and challenges in machine learning and multi-agent systems, my work combines tools from game theory, reinforcement learning, online learning, stochastic optimization, and dynamical systems to understand and shape how autonomous agents learn to act, adapt, and collaborate in strategic and dynamic multi-agent environments.  
-&lt;p&gt;Previously, I was a postdoctoral fellow at ETH Zurich working with 
-&lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Niao He&lt;/a&gt; in the department of computer science.
-I obtained my PhD in applied mathematics and computer science from 
-&lt;a href=&#34;https://www.ip-paris.fr/en/home-en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institut Polytechnique de Paris&lt;/a&gt; at 
-&lt;a href=&#34;https://www.telecom-paris.fr/en/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Télécom Paris&lt;/a&gt; under the supervision of 
-&lt;a href=&#34;https://bianchi.wp.imt.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pascal Bianchi&lt;/a&gt; and 
-&lt;a href=&#34;http://www-syscom.univ-mlv.fr/~whachem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Walid Hachem&lt;/a&gt;.
-I received my engineering Master&amp;rsquo;s degree in applied mathematics and computer science from Télécom Paris and a Master&amp;rsquo;s degree in data science from Université Paris Saclay.&lt;/p&gt;
+&lt;p&gt;
+My research lies at the intersection of multi-agent learning, reinforcement learning, and optimization. 
+Motivated by challenges and applications in machine learning and multi-agent systems, I focus on the design and analysis of principled learning 
+algorithms for sequential decision-making in strategic, dynamic, and uncertain environments. 
+&lt;/p&gt;
+&lt;p&gt;
+    Previously, I was a postdoctoral fellow at ETH Zurich working with
+    &lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34;&gt;Niao He&lt;/a&gt; in the department of computer science.
+    I obtained my PhD in applied mathematics and computer science from
+    &lt;a href=&#34;https://www.ip-paris.fr/en/home-en/&#34;&gt;Institut Polytechnique de Paris&lt;/a&gt; at
+    &lt;a href=&#34;https://www.telecom-paris.fr/en/home&#34;&gt;Télécom Paris&lt;/a&gt; under the supervision of
+    &lt;a href=&#34;https://bianchi.wp.imt.fr/&#34;&gt;Pascal Bianchi&lt;/a&gt; and
+    &lt;a href=&#34;http://www-syscom.univ-mlv.fr/~whachem/&#34;&gt;Walid Hachem&lt;/a&gt;.
+    I received my engineering Master&#39;s degree in applied mathematics and computer science from Télécom Paris and a Master&#39;s degree in data science from Université Paris Saclay.
+  &lt;/p&gt;
+&lt;/div&gt;
 &lt;!--
 &lt;p style=&#34;text-align: justify;&#34;&gt; &lt;/p&gt;
 &lt;div style=&#34;text-align: justify&#34;&gt; 
@@ -59,29 +66,6 @@ P. Alatur, A. Barakat*, N. He. Independent Policy Mirror Descent for Markov Pote
 Ph. Jordan, A. Barakat, N. He. Independent Learning in Constrained Markov Potential Games. AISTATS 2024. 
 --&gt;
 </description>
-    </item>
-    
-  </channel>
-</rss>
- +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/1-continuous-adam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Convergence Rates of a Momentum Algorithm with Bounded Adaptive Step Size for Non-Convex Optimization</title>
-      <link>https://anasbarakat.github.io/publication/2-adam-discrete/</link>
-      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/2-adam-discrete/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Convergence de l&#39;algorithme Adam du point de vue des systèmes dynamiques</title>
-      <link>https://anasbarakat.github.io/publication/1-bis-gretsi-2019/</link>
-      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/1-bis-gretsi-2019/</guid>
-      <description></description>
     </item>
     
   </channel>
