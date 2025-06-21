@@ -2,8 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://anasbarakat.github.io/publication-type/1/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://anasbarakat.github.io/</loc>
-    <lastmod>2025-04-29T16:00:00+00:00</lastmod>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/anas-barakat/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/antonios-varvitsiotis/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/authors/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/john-lazarsfeld/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/tag/multi-agent-learning/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication/13-sym-cone-games/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication_types/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/tags/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/wayne-lin/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/ilyas-fatkhullin/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/jiduan-wu/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/publication/7-bis-zero-sum-lqr-journal/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anasbarakat.github.io/author/niao-he/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/talk/talk-ntu-workshop/</loc>
     <lastmod>2025-04-29T16:00:00+00:00</lastmod>
@@ -13,39 +58,6 @@
   </url><url>
     <loc>https://anasbarakat.github.io/talk/talk-fin-rl25/</loc>
     <lastmod>2025-04-21T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication-type/1/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/anas-barakat/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/antonios-varvitsiotis/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/authors/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/john-lazarsfeld/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/tag/multi-agent-learning/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication/13-sym-cone-games/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication_types/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/tags/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/wayne-lin/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/publication/12-cptrl/</loc>
     <lastmod>2025-02-01T00:00:00+00:00</lastmod>
@@ -77,9 +89,6 @@
     <loc>https://anasbarakat.github.io/publication/11-pmd-mpgs/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anasbarakat.github.io/author/niao-he/</loc>
-    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://anasbarakat.github.io/author/pragnya-alatur/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -100,12 +109,6 @@
   </url><url>
     <loc>https://anasbarakat.github.io/author/philip-jordan/</loc>
     <lastmod>2023-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/ilyas-fatkhullin/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/author/jiduan-wu/</loc>
-    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/publication/7-zero-sum-lqr/</loc>
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
@@ -187,12 +190,6 @@
   </url><url>
     <loc>https://anasbarakat.github.io/talk/iccopt19/</loc>
     <lastmod>2019-08-05T18:20:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication-type/0/</loc>
-    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anasbarakat.github.io/publication/1-bis-gretsi-2019/</loc>
-    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anasbarakat.github.io/author/anas-barakat/</loc>
   </url><url>
