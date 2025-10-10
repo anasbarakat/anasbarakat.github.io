@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anas Barakat* | Anas Barakat</title>
+    <title>Anas Barakat</title>
     <link>https://anasbarakat.github.io/author/anas-barakat/</link>
       <atom:link href="https://anasbarakat.github.io/author/anas-barakat/index.xml" rel="self" type="application/rss+xml" />
-    <description>Anas Barakat*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <description>Anas Barakat</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
-      <title>Anas Barakat*</title>
+      <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/author/anas-barakat/</link>
     </image>
     
     <item>
-      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
-      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
+      <title>A Prospect-Theoretic Policy Gradient Framework for Behaviorally Nuanced Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
       <description></description>
     </item>
     
-  </channel>
-</rss>
-Learning in Symmetric Cone Games</title>
+    <item>
+      <title>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Multi-Agent Control with Adversarial Disturbances</title>
+      <link>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimistic Online Learning in Symmetric Cone Games</title>
       <link>https://anasbarakat.github.io/publication/13-sym-cone-games/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/13-sym-cone-games/</guid>
@@ -34,22 +49,6 @@ Learning in Symmetric Cone Games</title>
       <link>https://anasbarakat.github.io/publication/7-bis-zero-sum-lqr-journal/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/7-bis-zero-sum-lqr-journal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Prospect-Theoretic Policy Gradient Framework for Behaviorally Nuanced Reinforcement Learning</title>
-      <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</title>
-      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
       <description></description>
     </item>
     
