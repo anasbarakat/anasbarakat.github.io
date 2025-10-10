@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anas Barakat</title>
+    <title>Anas Barakat* | Anas Barakat</title>
     <link>https://anasbarakat.github.io/author/anas-barakat/</link>
       <atom:link href="https://anasbarakat.github.io/author/anas-barakat/index.xml" rel="self" type="application/rss+xml" />
-    <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <description>Anas Barakat*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
-      <title>Anas Barakat</title>
+      <title>Anas Barakat*</title>
       <link>https://anasbarakat.github.io/author/anas-barakat/</link>
     </image>
     
     <item>
-      <title>Multi-Agent Online Control with Adversarial Disturbances</title>
-      <link>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</link>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</guid>
+      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
+      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Optimistic Online Learning in Symmetric Cone Games</title>
+  </channel>
+</rss>
+Learning in Symmetric Cone Games</title>
       <link>https://anasbarakat.github.io/publication/13-sym-cone-games/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/13-sym-cone-games/</guid>
@@ -37,15 +38,15 @@
     </item>
     
     <item>
-      <title>A Prospect-Theoretic Policy Gradient Algorithm for Behavioral Alignment in Reinforcement Learning</title>
+      <title>A Prospect-Theoretic Policy Gradient Framework for Behaviorally Nuanced Reinforcement Learning</title>
       <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Towards Scalable General Utility Reinforcement Learning: Occupancy Approximation, Sample Complexity and Global Optimality</title>
+      <title>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</title>
       <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
@@ -130,15 +131,6 @@
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/2-adam-discrete/</guid>
       <description></description>
-    </item>
-    
-  </channel>
-</rss>
-orresponding author. 
-
-Ph. Jordan, A. Barakat, N. He. Independent Learning in Constrained Markov Potential Games. AISTATS 2024. 
---&gt;
-</description>
     </item>
     
   </channel>

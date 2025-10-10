@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Multi-Agent Online Control with Adversarial Disturbances</title>
+      <title>Online Multi-Agent Control with Adversarial Disturbances</title>
       <link>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</guid>
@@ -61,15 +61,15 @@
     </item>
     
     <item>
-      <title>A Prospect-Theoretic Policy Gradient Algorithm for Behavioral Alignment in Reinforcement Learning</title>
+      <title>A Prospect-Theoretic Policy Gradient Framework for Behaviorally Nuanced Reinforcement Learning</title>
       <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Towards Scalable General Utility Reinforcement Learning: Occupancy Approximation, Sample Complexity and Global Optimality</title>
+      <title>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</title>
       <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
