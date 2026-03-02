@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amrit Singh Bedi | Anas Barakat</title>
-    <link>https://anasbarakat.github.io/author/amrit-singh-bedi/</link>
-      <atom:link href="https://anasbarakat.github.io/author/amrit-singh-bedi/index.xml" rel="self" type="application/rss+xml" />
-    <description>Amrit Singh Bedi</description>
+    <title>Khushbu Pahwa | Anas Barakat</title>
+    <link>https://anasbarakat.github.io/author/khushbu-pahwa/</link>
+      <atom:link href="https://anasbarakat.github.io/author/khushbu-pahwa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Khushbu Pahwa</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
-      <title>Amrit Singh Bedi</title>
-      <link>https://anasbarakat.github.io/author/amrit-singh-bedi/</link>
+      <title>Khushbu Pahwa</title>
+      <link>https://anasbarakat.github.io/author/khushbu-pahwa/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://anasbarakat.github.io/publication/16-pass-k-vs-pass-1-opt/</link>
       <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/16-pass-k-vs-pass-1-opt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</title>
-      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
       <description></description>
     </item>
     
