@@ -1,22 +1,150 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anas Barakat* | Anas Barakat</title>
+    <title>Anas Barakat</title>
     <link>https://anasbarakat.github.io/author/anas-barakat/</link>
       <atom:link href="https://anasbarakat.github.io/author/anas-barakat/index.xml" rel="self" type="application/rss+xml" />
-    <description>Anas Barakat*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <description>Anas Barakat</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
-      <title>Anas Barakat*</title>
+      <title>Anas Barakat</title>
       <link>https://anasbarakat.github.io/author/anas-barakat/</link>
     </image>
     
     <item>
-      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
-      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
+      <title>Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training</title>
+      <link>https://anasbarakat.github.io/publication/16-pass-k-vs-pass-1-opt/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/16-pass-k-vs-pass-1-opt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria</title>
+      <link>https://anasbarakat.github.io/publication/15-convex-markov-games/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/15-convex-markov-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy Gradients for Cumulative Prospect Theory in Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/12-cptrl/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/12-cptrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</title>
+      <link>https://anasbarakat.github.io/publication/9-scalable-rlgu/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/9-scalable-rlgu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Multi-Agent Control with Adversarial Disturbances</title>
+      <link>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/14-multi-agent-online-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimistic Online Learning in Symmetric Cone Games</title>
+      <link>https://anasbarakat.github.io/publication/13-sym-cone-games/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/13-sym-cone-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity and Last Iterate Convergence</title>
+      <link>https://anasbarakat.github.io/publication/7-bis-zero-sum-lqr-journal/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/7-bis-zero-sum-lqr-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy Mirror Descent with Lookahead</title>
+      <link>https://anasbarakat.github.io/publication/10-pmdlookahead/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/10-pmdlookahead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Independent Learning in Constrained Markov Potential Games</title>
+      <link>https://anasbarakat.github.io/publication/8-independent-cmpg/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/8-independent-cmpg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity</title>
+      <link>https://anasbarakat.github.io/publication/7-zero-sum-lqr/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/7-zero-sum-lqr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space</title>
+      <link>https://anasbarakat.github.io/publication/6-rl-gen-utility-var-reduc/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/6-rl-gen-utility-var-reduc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic Policy Gradient Methods: Improved Sample Complexity for Fisher-non-degenerate Policies</title>
+      <link>https://anasbarakat.github.io/publication/5-pg-fisher-non-deg/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/5-pg-fisher-non-deg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of a Target-Based Actor-Critic Algorithm with Linear Function Approximation</title>
+      <link>https://anasbarakat.github.io/publication/4-actor-critic/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/4-actor-critic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contributions to non-convex stochastic optimization and reinforcement learning</title>
+      <link>https://anasbarakat.github.io/publication/thesis/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic optimization with momentum:  convergence, fluctuations, and traps avoidance</title>
+      <link>https://anasbarakat.github.io/publication/3-adamplus20/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/3-adamplus20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence and Dynamical Behavior of the ADAM Algorithm for Non-Convex Stochastic Optimization</title>
+      <link>https://anasbarakat.github.io/publication/1-continuous-adam/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/1-continuous-adam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence Rates of a Momentum Algorithm with Bounded Adaptive Step Size for Non-Convex Optimization</title>
+      <link>https://anasbarakat.github.io/publication/2-adam-discrete/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/2-adam-discrete/</guid>
       <description></description>
     </item>
     
