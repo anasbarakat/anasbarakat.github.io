@@ -73,7 +73,7 @@ Online learning with hidden-convex losses, bandit feedback, and dynamically evol
     &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://proceedings.mlr.press/v202/barakat23a/barakat23a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proceedings&lt;/a&gt;
 &lt;/div&gt;
 &lt;h4 id=&#34;multi-agent-learning-in-structured-dynamical-games&#34;&gt;Multi-Agent Learning in Structured Dynamical Games&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Keywords: Markov games with general utilities, Markov potential games, learning dynamics, Nash equilibrium learning, hidden convexity, symmetric cone games, dynamical games.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Keywords: multi-agent RL, Markov games with general utilities, Markov potential games, game dynamics, Nash equilibrium learning, hidden convexity, symmetric cone games, dynamical games.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
   &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
   Anas Barakat, Ioannis Panageas, Antonios Varvitsiotis.
@@ -96,7 +96,7 @@ Online learning with hidden-convex losses, bandit feedback, and dynamically evol
     &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2506.18814&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv&lt;/a&gt;
 &lt;/div&gt;
 &lt;h4 id=&#34;online-learning-with-hidden-structure-under-limited-feedback&#34;&gt;Online Learning with Hidden Structure under Limited Feedback&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Keywords: online learning, bandit feedback, hidden convexity.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Keywords: online learning, bandit feedback, hidden convexity, regret analysis.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
   &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
   Anas Barakat, Andreas Kontogiannis, Vasilis Pollatos, Ioannis Panageas, Antonios Varvitsiotis. 
@@ -138,7 +138,7 @@ Ph. Jordan, A. Barakat, N. He. Independent Learning in Constrained Markov Potent
 --&gt;
 &lt;h3 id=&#34;experience-and-background&#34;&gt;Experience and Background&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;September 2024–present: Research Fellow&lt;/strong&gt;, Singapore University of Technology and Design.
+&lt;li&gt;&lt;strong&gt;October 2024–present: Postdoctoral Research Fellow&lt;/strong&gt;, Singapore University of Technology and Design.
 Working with 
 &lt;a href=&#34;https://sites.google.com/site/antoniosvarvitsiotis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonios Varvitsiotis&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -147,7 +147,7 @@ Working with
 --&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;February 2022–July 2024: Postdoctoral Fellow&lt;/strong&gt;, ETH Zurich, Department of Computer Science.
+&lt;p&gt;&lt;strong&gt;February 2022–August 2024: Postdoctoral Fellow&lt;/strong&gt;, ETH Zurich, Department of Computer Science.
 Worked with 
 &lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Niao He&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
