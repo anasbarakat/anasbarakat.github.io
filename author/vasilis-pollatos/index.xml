@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vasilis Pollatos | Anas Barakat</title>
+    <link>https://anasbarakat.github.io/author/vasilis-pollatos/</link>
+      <atom:link href="https://anasbarakat.github.io/author/vasilis-pollatos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vasilis Pollatos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
+      <title>Vasilis Pollatos</title>
+      <link>https://anasbarakat.github.io/author/vasilis-pollatos/</link>
+    </image>
+    
+    <item>
+      <title>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</title>
+      <link>https://anasbarakat.github.io/publication/17-online-hidden-convex/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/17-online-hidden-convex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

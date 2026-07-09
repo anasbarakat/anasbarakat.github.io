@@ -17,18 +17,175 @@
       <link>https://anasbarakat.github.io/author/anas-barakat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/author/anas-barakat/</guid>
-      <description>&lt;p&gt;I am currently a Research Fellow at Singapore University of Technology and Design, working with 
-&lt;a href=&#34;https://sites.google.com/site/antoniosvarvitsiotis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonios Varvitsiotis&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Learning, Optimization, and Game Dynamics for Modern AI Systems&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Theory and algorithms for policy optimization beyond expected additive rewards, multi-agent learning in structured games, and online learning under limited feedback&lt;/em&gt;&lt;/p&gt;
+&lt;!-- &lt;p style=&#34;text-align: justify;&#34;&gt; &lt;/p&gt; --&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt; 
+&lt;!-- &lt;p&gt; --&gt;
+&lt;p&gt;My research develops theoretical foundations and algorithms for learning problems that go beyond the classical paradigm of maximizing expected additive rewards in fixed learning environments. In modern AI systems, objectives may be nonlinear, distributional, multi-sample, or nonconvex with exploitable hidden structure; learning feedback may be limited and revealed online; and environments may contain other agents adapting strategically. These challenges arise in modern AI training and LLM post-training, where models are optimized through imperfect objectives, learned rewards, verifiers, and interactions with users or other agents.&lt;/p&gt;
+&lt;p&gt;My research is organized along three complementary axes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Policy Optimization Beyond Expected Additive Rewards:&lt;/strong&gt;
+Theory and algorithms for reinforcement learning and post-training objectives beyond standard expected additive rewards,
+including general utilities, risk-sensitive criteria, and LLM post-training.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Multi-Agent Learning in Structured Dynamical Games:&lt;/strong&gt;
+Learning dynamics in strategic, stateful multi-agent environments with exploitable structure, including Markov games with general utilities, Markov
+potential games, symmetric cone games and continuous dynamical games.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Online Learning with Hidden Structure under Limited Feedback:&lt;/strong&gt;
+Online learning with hidden-convex losses, bandit feedback, and dynamically evolving state-dependent losses with adversarial disturbances.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;selected-publications&#34;&gt;Selected Publications&lt;/h3&gt;
+&lt;h4 id=&#34;policy-optimization-beyond-expected-additive-rewards&#34;&gt;Policy Optimization Beyond Expected Additive Rewards&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Keywords: general utility RL, policy gradient methods, risk-sensitive RL, LLM post-training.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, Souradip Chakraborty, Khushbu Pahwa, Amrit Singh Bedi. 
+  &lt;em&gt;Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training&lt;/em&gt;.
+  Under review, 2026.
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2602.21189&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, Souradip Chakraborty, Peihong Yu, Pratap Tokekar, Amrit Singh Bedi. 
+  &lt;em&gt;On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning&lt;/em&gt;.
+  NeurIPS 2025.
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://openreview.net/pdf/0ad777c04aa9dd3f277e03413637353ee90a6177.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proceedings&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Olivier Lepel, Anas Barakat. 
+  &lt;em&gt;Policy Gradients for Cumulative Prospect Theory in Reinforcement Learning&lt;/em&gt;.
+  Under review, 2026.
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2410.02605&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, Ilyas Fatkhullin, Niao He. 
+  &lt;em&gt;Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space&lt;/em&gt;.
+  ICML 2023.
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://proceedings.mlr.press/v202/barakat23a/barakat23a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proceedings&lt;/a&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;multi-agent-learning-in-structured-dynamical-games&#34;&gt;Multi-Agent Learning in Structured Dynamical Games&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Keywords: Markov games with general utilities, Markov potential games, learning dynamics, Nash equilibrium learning, hidden convexity, symmetric cone games, dynamical games.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, Ioannis Panageas, Antonios Varvitsiotis.
+  &lt;em&gt;Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria.&lt;/em&gt;
+  AISTATS 2026.
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2602.12181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proceedings&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, Wayne Lin, John Lazarsfeld, Antonios Varvitsiotis. 
+  &lt;em&gt;Optimistic Online Learning in Symmetric Cone Games&lt;/em&gt;.
+  Transactions on Machine Learning Research 2026.
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://openreview.net/pdf?id=RQjvE2o3o6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, John Lazarsfeld, Georgios Piliouras, Antonios Varvitsiotis.
+  &lt;em&gt;Online Multi-Agent Control with Adversarial Disturbances&lt;/em&gt;.
+  Under review, 2026. 
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2506.18814&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv&lt;/a&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;online-learning-with-hidden-structure-under-limited-feedback&#34;&gt;Online Learning with Hidden Structure under Limited Feedback&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Keywords: online learning, bandit feedback, hidden convexity.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  Anas Barakat, Andreas Kontogiannis, Vasilis Pollatos, Ioannis Panageas, Antonios Varvitsiotis. 
+  &lt;em&gt;Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback&lt;/em&gt;.
+  Under review, 2026. 
+    &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2605.26373&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;For a complete list of publications, see my 
+&lt;a href=&#34;https://anasbarakat.github.io/publication/&#34;&gt;Research page&lt;/a&gt; or 
+&lt;a href=&#34;https://scholar.google.com/citations?user=5YyyWPkAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;news&#34;&gt;News&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;05/2026: New preprint: &lt;em&gt;Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback&lt;/em&gt;, 
+&lt;a href=&#34;https://arxiv.org/pdf/2605.26373&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;05/2026: Humbled to be recognized as a Gold Reviewer at ICML 2026.&lt;/li&gt;
+&lt;li&gt;02/2026: New preprint: &lt;em&gt;Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training&lt;/em&gt;, 
+&lt;a href=&#34;https://arxiv.org/pdf/2602.21189&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;02/2026: &lt;em&gt;Optimistic Online Learning in Symmetric Cone Games&lt;/em&gt; accepted to Transactions on Machine Learning Research, 
+&lt;a href=&#34;https://openreview.net/pdf?id=RQjvE2o3o6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;01/2026: &lt;em&gt;Convex Markov Games and Beyond&lt;/em&gt; accepted to AISTATS 2026, 
+&lt;a href=&#34;https://arxiv.org/pdf/2602.12181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;10/2025:  Designing and teaching a new course with John Lazarsfeld and Iosif Sakos. Check out our website: 
+&lt;a href=&#34;https://learning-in-games.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Online Learning and Learning in Games&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;09/2025: &lt;em&gt;On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning&lt;/em&gt; accepted to NeurIPS 2025.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- - 02/2026: Check out our new work: `Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training&#39;, [arxiv link](https://arxiv.org/pdf/2602.21189). 
+- 02/2026: &#39;Optimistic Online Learning in Symmetric Cone Games&#39; accepted to Transactions on Machine Learning Research, [link](https://openreview.net/pdf?id=RQjvE2o3o6).
+- 01/2026: &#39;Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria&#39; accepted to AISTATS 2026, [arxiv link](https://arxiv.org/pdf/2602.12181). 
+- 10/2025:  Designing and teaching a new course with John Lazarsfeld and Iosif Sakos. Check out our website: [Online Learning and Learning in Games](https://learning-in-games.github.io). 
+- 09/2025: `On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning&#39; accepted to NeurIPS 2025.  --&gt;
+&lt;!-- 
+**Selected Publications** 
+
+*Multi-Agent Learning* 
+
+P. Alatur, A. Barakat*, N. He. Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players. IEEE CDC 2024. *corresponding author. 
+
+Ph. Jordan, A. Barakat, N. He. Independent Learning in Constrained Markov Potential Games. AISTATS 2024. 
+--&gt;
+&lt;h3 id=&#34;experience-and-background&#34;&gt;Experience and Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;September 2024–present: Research Fellow&lt;/strong&gt;, Singapore University of Technology and Design.
+Working with 
+&lt;a href=&#34;https://sites.google.com/site/antoniosvarvitsiotis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonios Varvitsiotis&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--
 [Georgios Piliouras](https://scholar.google.com/citations?user=Ar4h7jkAAAAJ&amp;hl=fr) and
 --&gt;
-&lt;p style=&#34;text-align: justify;&#34;&gt; &lt;/p&gt;
-&lt;div style=&#34;text-align: justify&#34;&gt; 
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;February 2022–July 2024: Postdoctoral Fellow&lt;/strong&gt;, ETH Zurich, Department of Computer Science.
+Worked with 
+&lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Niao He&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ph.D. in Applied Mathematics and Computer Science&lt;/strong&gt;, Institut Polytechnique de Paris (Télécom Paris), 2021.&lt;br&gt;
+Advised by 
+&lt;a href=&#34;https://bianchi.wp.imt.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pascal Bianchi&lt;/a&gt; and 
+&lt;a href=&#34;http://www-syscom.univ-mlv.fr/~whachem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Walid Hachem&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Engineering Master&amp;rsquo;s degree in Applied Mathematics and Computer Science&lt;/strong&gt;, Télécom Paris, 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M.Sc. in Data Science&lt;/strong&gt;, Université Paris Saclay, 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is my 
+&lt;a href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;!-- &lt;/p&gt;
+I am currently a Research Fellow at Singapore University of Technology and Design, 
+working with &lt;a href=&#34;https://sites.google.com/site/antoniosvarvitsiotis/&#34;&gt;Antonios Varvitsiotis&lt;/a&gt;. 
 &lt;p&gt;
-&lt;p&gt;My primary research interests are in reinforcement learning and multi-agent learning.
-I develop theory and algorithms for sequential decision-making and learning under uncertainty. I study how learning dynamics evolve in structured, non-stationary, and strategic environments, and I design algorithms with provable guarantees on their long-term behavior.
-More recently, I have been exploring how these ideas can inform post-training and alignment in large language models.
-My work draws on tools from game theory, online learning, stochastic optimization and dynamical systems.&lt;/p&gt;
+    Previously, I was a postdoctoral fellow at ETH Zurich working with
+    &lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34;&gt;Niao He&lt;/a&gt; in the department of computer science.
+    I obtained my PhD in applied mathematics and computer science from
+    &lt;a href=&#34;https://www.ip-paris.fr/en/home-en/&#34;&gt;Institut Polytechnique de Paris&lt;/a&gt; at
+    &lt;a href=&#34;https://www.telecom-paris.fr/en/home&#34;&gt;Télécom Paris&lt;/a&gt; under the supervision of
+    &lt;a href=&#34;https://bianchi.wp.imt.fr/&#34;&gt;Pascal Bianchi&lt;/a&gt; and
+    &lt;a href=&#34;http://www-syscom.univ-mlv.fr/~whachem/&#34;&gt;Walid Hachem&lt;/a&gt;.
+    I received my engineering Master&#39;s degree in applied mathematics and computer science from Télécom Paris and a Master&#39;s degree in data science from Université Paris Saclay.
+  &lt;/p&gt;
+&lt;/div&gt; --&gt;
+&lt;!-- 
+I am currently a Research Fellow at Singapore University of Technology and Design, working with [Antonios Varvitsiotis](https://sites.google.com/site/antoniosvarvitsiotis/).  --&gt;
+&lt;!-- My primary research interests are in reinforcement learning and multi-agent learning. 
+I develop theory and algorithms for sequential decision-making and learning under uncertainty. I study how learning dynamics evolve in structured, non-stationary, and strategic environments, and I design algorithms with provable guarantees on their long-term behavior. 
+More recently, I have been exploring how these ideas can inform post-training and alignment in large language models. 
+My work draws on tools from game theory, online learning, stochastic optimization and dynamical systems.  --&gt;
 &lt;!--
 My research develops theory and algorithms for multi-agent learning in sequential decision problems where multiple agents interact strategically. I study how autonomous agents learn to make decisions sequentially under uncertainty in settings where structured and non-stationary objectives shape long-term behavior. My work synthesizes tools from reinforcement learning, game theory, online learning, stochastic optimization, and dynamical systems to build principled and robust multi-agent learning systems.
 --&gt;
@@ -50,7 +207,7 @@ Motivated by challenges and applications in machine learning and multi-agent sys
 algorithms for sequential decision-making in strategic, dynamic, and uncertain environments. 
 --&gt;
 &lt;/p&gt;
-&lt;p&gt;
+&lt;!-- &lt;p&gt;
     Previously, I was a postdoctoral fellow at ETH Zurich working with
     &lt;a href=&#34;https://odi.inf.ethz.ch/niaohe.html&#34;&gt;Niao He&lt;/a&gt; in the department of computer science.
     I obtained my PhD in applied mathematics and computer science from
@@ -60,7 +217,7 @@ algorithms for sequential decision-making in strategic, dynamic, and uncertain e
     &lt;a href=&#34;http://www-syscom.univ-mlv.fr/~whachem/&#34;&gt;Walid Hachem&lt;/a&gt;.
     I received my engineering Master&#39;s degree in applied mathematics and computer science from Télécom Paris and a Master&#39;s degree in data science from Université Paris Saclay.
   &lt;/p&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 &lt;!--
 &lt;p style=&#34;text-align: justify;&#34;&gt; &lt;/p&gt;
 &lt;div style=&#34;text-align: justify&#34;&gt; 
@@ -71,29 +228,6 @@ Previously, I was a postdoctoral fellow at ETH Zurich working with [Niao He](htt
 I obtained my PhD in applied mathematics and computer science from [Institut Polytechnique de Paris](https://www.ip-paris.fr/en/home-en/) at [Télécom Paris](https://www.telecom-paris.fr/en/home) under the supervision of [Pascal Bianchi](https://bianchi.wp.imt.fr/) and [Walid Hachem](http://www-syscom.univ-mlv.fr/~whachem/).
 I received my engineering Master&#39;s degree in applied mathematics and computer science from Télécom Paris and a Master&#39;s degree in data science from Université Paris Saclay.
 &lt;/div&gt;
---&gt;
-&lt;p&gt;Here is my 
-&lt;a href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt; for more information.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;02/2026: Check out our new work: `Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training&amp;rsquo;, 
-&lt;a href=&#34;https://arxiv.org/pdf/2602.21189&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv link&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;02/2026: &amp;lsquo;Optimistic Online Learning in Symmetric Cone Games&amp;rsquo; accepted to Transactions on Machine Learning Research, 
-&lt;a href=&#34;https://openreview.net/pdf?id=RQjvE2o3o6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;01/2026: &amp;lsquo;Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria&amp;rsquo; accepted to AISTATS 2026, 
-&lt;a href=&#34;https://arxiv.org/pdf/2602.12181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv link&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;10/2025:  Designing and teaching a new course with John Lazarsfeld and Iosif Sakos. Check out our website: 
-&lt;a href=&#34;https://learning-in-games.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Online Learning and Learning in Games&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;09/2025: `On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning&amp;rsquo; accepted to NeurIPS 2025.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- 
-**Selected Publications** 
-
-*Multi-Agent Learning* 
-
-P. Alatur, A. Barakat*, N. He. Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players. IEEE CDC 2024. *corresponding author. 
-
-Ph. Jordan, A. Barakat, N. He. Independent Learning in Constrained Markov Potential Games. AISTATS 2024. 
 --&gt;
 </description>
     </item>
