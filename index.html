@@ -710,33 +710,52 @@
 <!-- <p style="text-align: justify;"> </p> -->
 <div style="text-align: justify"> 
 <!-- <p> -->
-<p>My research develops theoretical foundations and algorithms for learning problems that go beyond the classical paradigm of maximizing expected additive rewards in fixed learning environments. In modern AI systems, objectives may be nonlinear, distributional, multi-sample, or nonconvex with exploitable hidden structure; learning feedback may be limited and revealed online; and environments may contain other agents adapting strategically. These challenges arise in modern AI training and LLM post-training, where models are optimized through imperfect objectives, learned rewards, verifiers, and interactions with users or other agents.</p>
+<p>My research develops theoretical foundations and algorithms using optimization for learning problems that go beyond the classical paradigm of maximizing expected additive rewards in fixed learning environments. In modern AI systems, objectives may be nonlinear, distributional, multi-sample, or nonconvex with exploitable hidden structure; learning feedback may be limited and revealed online; and environments may contain other agents adapting strategically. These challenges arise in modern AI training and LLM post-training, where models are optimized through imperfect objectives, learned rewards, verifiers, and interactions with users or other agents.</p>
 <!-- My research is organized along three complementary axes: -->
 <p>My research is organized around two complementary directions:</p>
 <ul>
 <li>
 <p><strong>Policy Optimization Beyond Expected Additive Rewards:</strong>
-Theory and algorithms for reinforcement learning and post-training objectives beyond standard expected additive rewards,
-including general utilities, risk-sensitive criteria, and LLM post-training.</p>
+Foundations and optimization algorithms for reinforcement learning and post-training objectives beyond standard expected additive rewards,
+including general utilities, reward-free RL, risk-sensitive criteria, and LLM post-training.</p>
 </li>
 <li>
 <p><strong>Multi-Agent Learning in Structured Dynamical Games:</strong>
-Learning dynamics in strategic, stateful multi-agent environments with exploitable structure, including Markov games with general utilities, Markov
-potential games, symmetric cone games and continuous dynamical games.</p>
+Optimization for game dynamics and equilibrium learning in strategic and stateful multi-agent environments including Markov games (stochastic games and beyond, with general utilities)
+and continuous dynamical games.</p>
 </li>
 </ul>
 <!-- - **Online Learning with Hidden Structure under Limited Feedback:**
   Online learning with hidden-convex losses, bandit feedback, and dynamically evolving state-dependent losses with adversarial disturbances. -->
 </div>
 <h3 id="selected-publications">Selected Publications</h3>
-<h4 id="policy-optimization-beyond-expected-additive-rewards">Policy Optimization Beyond Expected Additive Rewards</h4>
-<p><em>Keywords: general utility RL, policy gradient methods, risk-sensitive RL, LLM post-training.</em></p>
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Anas Barakat, Souradip Chakraborty, Khushbu Pahwa, Amrit Singh Bedi. 
   <em>Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training</em>.
   Under review, 2026.
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2602.21189" target="_blank" rel="noopener">Arxiv</a>
+</div>
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  Anas Barakat, Andreas Kontogiannis, Vasilis Pollatos, Ioannis Panageas, Antonios Varvitsiotis. 
+  <em>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</em>.
+  Under review, 2026. 
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2605.26373" target="_blank" rel="noopener">Arxiv</a>
+</div> 
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  Anas Barakat, John Lazarsfeld, Georgios Piliouras, Antonios Varvitsiotis.
+  <em>Online Multi-Agent Control with Adversarial Disturbances</em>.
+  Under review, 2026. 
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2506.18814" target="_blank" rel="noopener">Arxiv</a>
+</div>
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  Anas Barakat, Ioannis Panageas, Antonios Varvitsiotis.
+  <em>Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria.</em>
+  AISTATS 2026.
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2602.12181" target="_blank" rel="noopener">Proceedings</a>
 </div>
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
@@ -747,11 +766,45 @@ potential games, symmetric cone games and continuous dynamical games.</p>
 </div>
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  Anas Barakat, Ilyas Fatkhullin, Niao He. 
+  <em>Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space</em>.
+  ICML 2023.
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://proceedings.mlr.press/v202/barakat23a/barakat23a.pdf" target="_blank" rel="noopener">Proceedings</a>
+</div>
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+   Anas Barakat, Pascal Bianchi, Walid Hachem, Sholom Schechtman.  
+  <em> Stochastic optimization with momentum: convergence, fluctuations, and traps avoidance</em>.
+  Electronic Journal of Statistics, 2021. 
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2605.26373" target="_blank" rel="noopener">Arxiv</a>
+</div>
+<!-- #### Policy Optimization Beyond Expected Additive Rewards
+*Keywords: general utility RL, policy gradient methods, risk-sensitive RL, LLM post-training.*
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  Anas Barakat, Souradip Chakraborty, Khushbu Pahwa, Amrit Singh Bedi. 
+  <em>Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training</em>.
+  Under review, 2026.
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2602.21189" target="_blank" rel="noopener">Arxiv</a>
+</div>
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  Anas Barakat, Souradip Chakraborty, Peihong Yu, Pratap Tokekar, Amrit Singh Bedi. 
+  <em>On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</em>.
+  NeurIPS 2025.
+    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://openreview.net/pdf/0ad777c04aa9dd3f277e03413637353ee90a6177.pdf" target="_blank" rel="noopener">Proceedings</a>
+</div>
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Olivier Lepel, Anas Barakat. 
   <em>Policy Gradients for Cumulative Prospect Theory in Reinforcement Learning</em>.
   Under review, 2026.
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2410.02605" target="_blank" rel="noopener">Arxiv</a>
 </div>
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Anas Barakat, Ilyas Fatkhullin, Niao He. 
@@ -759,8 +812,10 @@ potential games, symmetric cone games and continuous dynamical games.</p>
   ICML 2023.
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://proceedings.mlr.press/v202/barakat23a/barakat23a.pdf" target="_blank" rel="noopener">Proceedings</a>
 </div>
-<h4 id="multi-agent-learning-in-structured-dynamical-games">Multi-Agent Learning in Structured Dynamical Games</h4>
-<p><em>Keywords: multi-agent RL, Markov games with general utilities, Markov potential games, game dynamics, Nash equilibrium learning, hidden convexity, symmetric cone games, dynamical games.</em></p>
+
+#### Multi-Agent Learning in Structured Dynamical Games
+*Keywords: multi-agent RL, Markov games with general utilities, Markov potential games, game dynamics, Nash equilibrium learning, hidden convexity, symmetric cone games, dynamical games.*
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Anas Barakat, Ioannis Panageas, Antonios Varvitsiotis.
@@ -768,6 +823,7 @@ potential games, symmetric cone games and continuous dynamical games.</p>
   AISTATS 2026.
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2602.12181" target="_blank" rel="noopener">Proceedings</a>
 </div>
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Anas Barakat, Wayne Lin, John Lazarsfeld, Antonios Varvitsiotis. 
@@ -775,6 +831,7 @@ potential games, symmetric cone games and continuous dynamical games.</p>
   Transactions on Machine Learning Research 2026.
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://openreview.net/pdf?id=RQjvE2o3o6" target="_blank" rel="noopener">Journal</a>
 </div>
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Anas Barakat, John Lazarsfeld, Georgios Piliouras, Antonios Varvitsiotis.
@@ -782,18 +839,20 @@ potential games, symmetric cone games and continuous dynamical games.</p>
   Under review, 2026. 
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2506.18814" target="_blank" rel="noopener">Arxiv</a>
 </div>
-<h4 id="online-learning-with-hidden-structure-under-limited-feedback">Online Learning with Hidden Structure under Limited Feedback</h4>
-<p><em>Keywords: online learning, bandit feedback, hidden convexity, regret analysis.</em></p>
+
+#### Online Learning with Hidden Structure under Limited Feedback
+*Keywords: online learning, bandit feedback, hidden convexity, regret analysis.*
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   Anas Barakat, Andreas Kontogiannis, Vasilis Pollatos, Ioannis Panageas, Antonios Varvitsiotis. 
   <em>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</em>.
   Under review, 2026. 
     <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2605.26373" target="_blank" rel="noopener">Arxiv</a>
-</div>
-<p>For a complete list of publications, see my 
-<a href="/publication/">Research page</a> or 
-<a href="https://scholar.google.com/citations?user=5YyyWPkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a>.</p>
+</div> -->
+<p>For a complete list of my publications, see my 
+<a href="/publication/">Research page</a> below (organized by theme) or 
+<a href="https://scholar.google.com/citations?user=5YyyWPkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a> (for a list in reverse chronological order).</p>
 <h3 id="news">News</h3>
 <ul>
 <li>05/2026: New preprint: <em>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</em>, 
@@ -1017,11 +1076,7 @@ I received my engineering Master's degree in applied mathematics and computer sc
   <div class="col-12 col-lg-8">
 
     <h3 id="policy-optimization-beyond-expected-additive-rewards">Policy Optimization Beyond Expected Additive Rewards</h3>
-<ul>
-<li>RL with general utilities, convex RL</li>
-<li>Policy gradient algorithms</li>
-<li>Alignment and LLM Post-Training</li>
-</ul>
+<p><em>Keywords: policy gradient methods, general utility RL, convex RL, reward-free RL, LLM post-training.</em></p>
 
 
     
@@ -1109,7 +1164,7 @@ I received my engineering Master's degree in applied mathematics and computer sc
   </span>
   (2025).
   <a href="/publication/12-cptrl/">Policy Gradients for Cumulative Prospect Theory in Reinforcement Learning</a>.
-  Under review.
+  To appear in Transactions on Machine Learning Research 2026.
   
   <p>
 
@@ -1739,10 +1794,7 @@ I received my engineering Master's degree in applied mathematics and computer sc
   <div class="col-12 col-lg-8">
 
     <h3 id="multi-agent-learning-in-structured-dynamical-games">Multi-Agent Learning in Structured Dynamical Games</h3>
-<ul>
-<li>Multi-Agent Reinforcement Learning</li>
-<li>Learning in Games</li>
-</ul>
+<p><em>Keywords: learning in games, game dynamics, multi-agent RL, Markov games with general utilities, Markov potential games, continuous games with state dynamics, game theory.</em></p>
 
 
     
@@ -2513,6 +2565,7 @@ I received my engineering Master's degree in applied mathematics and computer sc
   <div class="col-12 col-lg-8">
 
     <h3 id="online-learning-with-hidden-structure-under-limited-feedback">Online Learning with Hidden Structure under Limited Feedback</h3>
+<p><em>Keywords: online learning, non-convex optimization, hidden convexity, bandit feedback, regret analysis.</em></p>
 
 
     
@@ -2680,12 +2733,7 @@ I received my engineering Master's degree in applied mathematics and computer sc
   <div class="col-12 col-lg-8">
 
     <h3 id="stochastic-optimization">Stochastic Optimization</h3>
-<ul>
-<li>Stochastic approximation</li>
-<li>Dynamical systems</li>
-<li>Non-convex stochastic optimization</li>
-<li>Adaptive gradient methods</li>
-</ul>
+<p><em>Keywords:  Stochastic approximation, Dynamical systems, non-convex stochastic optimization, adaptive gradient methods.</em></p>
 
 
     
