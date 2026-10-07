@@ -5,12 +5,20 @@
     <link>https://anasbarakat.github.io/publication-type/1/</link>
       <atom:link href="https://anasbarakat.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
       <title>1</title>
       <link>https://anasbarakat.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Learning in Continuous Games from Pairwise Preference Feedback</title>
+      <link>https://anasbarakat.github.io/publication/19-learning-cont-games-pref-feedback/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/19-learning-cont-games-pref-feedback/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</title>
