@@ -756,8 +756,7 @@
 
     <div style="text-align: justify"> 
 <p>My research develops foundations and algorithms for sequential and strategic decision-making when objectives extend beyond expected cumulative reward, feedback is limited, and multiple adaptive agents interact.
-My work lies at the intersection of optimization, reinforcement learning, and learning in games.
-I am particularly motivated by emerging challenges in modern AI, including policy optimization for LLM post-training, preference-based learning, and decentralized learning in competitive and cooperative multi-agent systems.</p>
+My work lies at the intersection of optimization, reinforcement learning, and learning in games, with a particular interest in emerging problems in modern AI, including post-training, AI alignment, and multi-agent learning.</p>
 <!-- My research lies at the intersection of optimization, reinforcement learning, and learning in games. 
 I develop optimization foundations and algorithms for sequential decision-making, 
 with a focus on richer objectives, strategic interactions, and limited feedback, motivated by emerging challenges in modern AI systems. -->
@@ -771,23 +770,22 @@ I received my PhD in mathematics and computer science from
 (<a href="https://www.telecom-paris.fr/en/home">Télécom Paris</a>), advised by
 <a href="https://bianchi.wp.imt.fr/">Pascal Bianchi</a> and
 <a href="http://www-syscom.univ-mlv.fr/~whachem/">Walid Hachem</a>.</p>
+<h3 id="research">Research</h3>
 <p><strong>Optimization for Sequential and Strategic Decision-Making</strong></p>
 <p>My research develops foundations and algorithms for decision-making beyond classical assumptions on objectives, feedback, and agent interactions, spanning three complementary directions:</p>
 <!-- My work studies optimization and learning for sequential decision-making when objectives go beyond expected cumulative rewards, agents interact strategically, or feedback is limited. My research is organized around three complementary directions: -->
 <ul>
 <li>
 <p><strong>Policy optimization beyond expected additive rewards:</strong>
-Foundations and optimization algorithms for reinforcement learning with objectives beyond standard expected additive rewards,
-including general utilities and LLM post-training objectives.</p>
+I study reinforcement learning and policy optimization when objectives depend nonlinearly on distributions of states, trajectories, or model responses, including general-utility RL and modern post-training.</p>
 </li>
 <li>
-<p><strong>Learning and optimization in structured games:</strong>
-Foundations and algorithms for learning in strategic and dynamic multi-agent environments, with a focus on the long-run behavior of learning dynamics and convergence to equilibria.</p>
+<p><strong>Learning in strategic and dynamic environments:</strong>
+I study decentralized learning in nonstationary environments where multiple agents interact using game theory, including static, Markov and continuous-state dynamical games, with a focus on learning dynamics, stability, and convergence to equilibria.</p>
 </li>
 <li>
-<p><strong>Online learning beyond convexity under limited feedback:</strong>
-Understanding when learning remains possible with nonconvex objectives and only partial or ordinal feedback.
-I develop algorithms and guarantees by exploiting latent structure—such as hidden convexity—and learning directly from bandit or preference feedback.</p>
+<p><strong>Online learning with hidden structure and limited feedback:</strong>
+I study when learning remains possible despite apparent nonconvexity or restricted feedback. My work exploits latent structure such as hidden convexity and develops algorithms that learn directly from bandit or pairwise preference feedback.</p>
 <!-- Understanding when learning remains possible when objectives are nonconvex and feedback reveals only partial or ordinal information. 
 I develop algorithms and guarantees by identifying latent structure—such as hidden convexity—and learning directly from bandit or preference feedback. -->
 </li>
@@ -1130,643 +1128,543 @@ I develop algorithms and guarantees by identifying latent structure—such as hi
   <div class="col-12 col-lg-8">
 
     <h3 id="policy-optimization-beyond-expected-additive-rewards">Policy Optimization Beyond Expected Additive Rewards</h3>
-<p><em>Keywords: policy gradient methods, general utility RL, convex RL, LLM post-training.</em></p>
+<!-- *Keywords: policy gradient methods, general utility RL, convex RL, LLM post-training.*-->
+<p>I study policy optimization when objectives depend nonlinearly on the distribution of trajectories or model responses, rather than on expected cumulative reward alone.
+My work develops scalable and globally convergent methods for general utility reinforcement learning, risk-sensitive objectives, and modern post-training objectives.</p>
 
 
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training
+    </div>
   
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Souradip Chakraborty
+        
+      
+        , 
+        
+          Khushbu Pahwa
+        
+      
+        , 
+        
+          Amrit Singh Bedi
+        
+      
+    </div>
   
 
-  <span class="article-metadata li-cite-author">
-    
+<div class="selected-pub-bottom research-pub">
 
-  
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/souradip-chakraborty/">Souradip Chakraborty</a></span>, <span ><a href="/author/khushbu-pahwa/">Khushbu Pahwa</a></span>, <span ><a href="/author/amrit-singh-bedi/">Amrit Singh Bedi</a></span>
-  </span>
-  (2026).
-  <a href="/publication/16-pass-k-vs-pass-1-opt/">Why Pass@k Optimization Can Degrade Pass@1: Prompt Interference in LLM Post-training</a>.
-  NeurIPS 2026.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2602.21189" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            NeurIPS 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2602.21189" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Policy Gradients for Cumulative Prospect Theory in Reinforcement Learning
+    </div>
   
-  <span ><a href="/author/olivier-lepel/">Olivier Lepel</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>
-  </span>
-  (2025).
-  <a href="/publication/12-cptrl/">Policy Gradients for Cumulative Prospect Theory in Reinforcement Learning</a>.
-  Transactions on Machine Learning Research 2026.
-  
-  <p>
-
-
-
-
-
-
-
-
+    <div class="selected-pub-authors">
+      
+        
+        
+          Olivier Lepel
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+    </div>
   
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/12-cptrl/slides_cptrl.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openreview.net/forum?id=6iGrtiSCR7" target="_blank" rel="noopener">
-    
-    Journal
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2410.02605" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            Transactions on Machine Learning Research 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://openreview.net/forum?id=6iGrtiSCR7" target="_blank" rel="noopener">
+            Journal
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/abs/2410.02605" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/12-cptrl/slides_cptrl.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/souradip-chakraborty/">Souradip Chakraborty</a></span>, <span ><a href="/author/peihong-yu/">Peihong Yu</a></span>, <span ><a href="/author/pratap-tokekar/">Pratap Tokekar</a></span>, <span ><a href="/author/amrit-singh-bedi/">Amrit Singh Bedi</a></span>
-  </span>
-  (2025).
-  <a href="/publication/9-scalable-rlgu/">On the Global Optimality of Policy Gradient Methods in General Utility Reinforcement Learning</a>.
-  NeurIPS 2025.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Souradip Chakraborty
+        
+      
+        , 
+        
+          Peihong Yu
+        
+      
+        , 
+        
+          Pratap Tokekar
+        
+      
+        , 
+        
+          Amrit Singh Bedi
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/9-scalable-rlgu/poster_neurips25_rlgu.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openreview.net/pdf/0ad777c04aa9dd3f277e03413637353ee90a6177.pdf" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2410.04108" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            NeurIPS 2025
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://openreview.net/pdf/0ad777c04aa9dd3f277e03413637353ee90a6177.pdf" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/abs/2410.04108" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/9-scalable-rlgu/poster_neurips25_rlgu.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Policy Mirror Descent with Lookahead
+    </div>
   
-  <span ><a href="/author/kimon-protopapas/">Kimon Protopapas</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>
-  </span>
-  (2024).
-  <a href="/publication/10-pmdlookahead/">Policy Mirror Descent with Lookahead</a>.
-  NeurIPS 2024.
-  
-  <p>
-
-
-
-
-
-
-
-
+    <div class="selected-pub-authors">
+      
+        
+        
+          Kimon Protopapas
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+    </div>
   
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/10-pmdlookahead/poster-pmd-neurips24.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openreview.net/pdf?id=om2Aa0gUha" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2403.14156.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            NeurIPS 2024
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://openreview.net/pdf?id=om2Aa0gUha" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2403.14156.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/10-pmdlookahead/poster-pmd-neurips24.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/ilyas-fatkhullin/">Ilyas Fatkhullin</a></span>, <span ><a href="/author/niao-he/">Niao He</a></span>
-  </span>
-  (2023).
-  <a href="/publication/6-rl-gen-utility-var-reduc/">Reinforcement Learning with General Utilities: Simpler Variance Reduction and Large State-Action Space</a>.
-  ICML 2023.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Ilyas Fatkhullin
+        
+      
+        , 
+        
+          Niao He
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/6-rl-gen-utility-var-reduc/poster-rlgu-icml23.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/6-rl-gen-utility-var-reduc/slides-video-rl-gen-ut.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://proceedings.mlr.press/v202/barakat23a.html" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2306.01854.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            ICML 2023
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://proceedings.mlr.press/v202/barakat23a.html" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2306.01854.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/6-rl-gen-utility-var-reduc/slides-video-rl-gen-ut.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/6-rl-gen-utility-var-reduc/poster-rlgu-icml23.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Stochastic Policy Gradient Methods: Improved Sample Complexity for Fisher-non-degenerate Policies
+    </div>
   
-  <span ><a href="/author/ilyas-fatkhullin/">Ilyas Fatkhullin</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/anastasia-kireeva/">Anastasia Kireeva</a></span>, <span ><a href="/author/niao-he/">Niao He</a></span>
-  </span>
-  (2023).
-  <a href="/publication/5-pg-fisher-non-deg/">Stochastic Policy Gradient Methods: Improved Sample Complexity for Fisher-non-degenerate Policies</a>.
-  ICML 2023.
+    <div class="selected-pub-authors">
+      
+        
+        
+          Ilyas Fatkhullin
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Anastasia Kireeva
+        
+      
+        , 
+        
+          Niao He
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/5-pg-fisher-non-deg/poster-pg-fnd-icml23.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://proceedings.mlr.press/v202/fatkhullin23a.html" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2302.01734.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            ICML 2023
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://proceedings.mlr.press/v202/fatkhullin23a.html" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2302.01734.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/5-pg-fisher-non-deg/poster-pg-fnd-icml23.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Analysis of a Target-Based Actor-Critic Algorithm with Linear Function Approximation
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/pascal-bianchi/">Pascal Bianchi</a></span>, <span ><a href="/author/julien-lehmann/">Julien Lehmann</a></span>
-  </span>
-  (2022).
-  <a href="/publication/4-actor-critic/">Analysis of a Target-Based Actor-Critic Algorithm with Linear Function Approximation</a>.
-  AISTATS 2022.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Pascal Bianchi
+        
+      
+        , 
+        
+          Julien Lehmann
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/actor-critic/aistats22-poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://proceedings.mlr.press/v151/barakat22a.html" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2106.07472.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            AISTATS 2022
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://proceedings.mlr.press/v151/barakat22a.html" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2106.07472.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/actor-critic/aistats22-poster.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
+    
       
     
 
@@ -1863,681 +1761,613 @@ I develop algorithms and guarantees by identifying latent structure—such as hi
   </div>
   <div class="col-12 col-lg-8">
 
-    <h3 id="learning-in-structured-dynamical-games">Learning in Structured Dynamical Games</h3>
-<p><em>Keywords: learning in games, game dynamics, multi-agent RL, Markov games with general utilities, Markov potential games, continuous games with state dynamics, game theory.</em></p>
+    <h3 id="learning-in-strategic-and-dynamic-environments">Learning in Strategic and Dynamic Environments</h3>
+<!-- *Keywords: learning in games, game dynamics, multi-agent RL, Markov games with general utilities, Markov potential games, continuous games with state dynamics, game theory.* -->
+<p>I study decentralized learning in strategic environments, from static games to Markov and continuous-state dynamical games.
+My work uses geometric and game-theoretic structure to understand when learning dynamics converge, cycle, or become unstable, and to design algorithms with equilibrium and regret guarantees.</p>
 
 
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      When and Why is Optimistic Multiplicative Weights Slow? The Geometry of Energy Dissipation
+    </div>
   
+    <div class="selected-pub-authors">
+      
+        
+        
+          John Lazarsfeld
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Georgios Piliouras
+        
+      
+        , 
+        
+          Antonios Varvitsiotis
+        
+      
+        , 
+        
+          Andre Wibisono
+        
+      
+    </div>
   
 
-  <span class="article-metadata li-cite-author">
-    
+<div class="selected-pub-bottom research-pub">
 
-  
-  <span ><a href="/author/john-lazarsfeld/">John Lazarsfeld</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/georgios-piliouras/">Georgios Piliouras</a></span>, <span ><a href="/author/antonios-varvitsiotis/">Antonios Varvitsiotis</a></span>, <span ><a href="/author/andre-wibisono/">Andre Wibisono</a></span>
-  </span>
-  (2026).
-  <a href="/publication/17-omwu-zero-sum-last-it/">When and Why is Optimistic Multiplicative Weights Slow? The Geometry of Energy Dissipation</a>.
-  NeurIPS 2026.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2605.13242" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            NeurIPS 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2605.13242" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/ioannis-panageas/">Ioannis Panageas</a></span>, <span ><a href="/author/antonios-varvitsiotis/">Antonios Varvitsiotis</a></span>
-  </span>
-  (2026).
-  <a href="/publication/15-convex-markov-games/">Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria</a>.
-  AISTATS 2026.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Ioannis Panageas
+        
+      
+        , 
+        
+          Antonios Varvitsiotis
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2602.12181" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            AISTATS 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2602.12181" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Online Learning in Stabilized Linear Dynamical Games with Adversarial Disturbances
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/john-lazarsfeld/">John Lazarsfeld</a></span>, <span ><a href="/author/georgios-piliouras/">Georgios Piliouras</a></span>, <span ><a href="/author/antonios-varvitsiotis/">Antonios Varvitsiotis</a></span>
-  </span>
-  (2025).
-  <a href="/publication/14-multi-agent-online-control/">Online Learning in Stabilized Linear Dynamical Games with Adversarial Disturbances</a>.
-  NeurIPS 2026.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          John Lazarsfeld
+        
+      
+        , 
+        
+          Georgios Piliouras
+        
+      
+        , 
+        
+          Antonios Varvitsiotis
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/14-multi-agent-online-control/omac_mlds_talk.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/2506.18814" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            NeurIPS 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="http://arxiv.org/pdf/2506.18814" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/14-multi-agent-online-control/omac_mlds_talk.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Optimistic Online Learning in Symmetric Cone Games
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/wayne-lin/">Wayne Lin</a></span>, <span ><a href="/author/john-lazarsfeld/">John Lazarsfeld</a></span>, <span ><a href="/author/antonios-varvitsiotis/">Antonios Varvitsiotis</a></span>
-  </span>
-  (2025).
-  <a href="/publication/13-sym-cone-games/">Optimistic Online Learning in Symmetric Cone Games</a>.
-  Transactions on Machine Learning Research 2026.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Wayne Lin
+        
+      
+        , 
+        
+          John Lazarsfeld
+        
+      
+        , 
+        
+          Antonios Varvitsiotis
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/13-sym-cone-games/oscmwu_talk.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openreview.net/forum?id=RQjvE2o3o6" target="_blank" rel="noopener">
-    
-    Journal
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2504.03592" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            Transactions on Machine Learning Research 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://openreview.net/forum?id=RQjvE2o3o6" target="_blank" rel="noopener">
+            Journal
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2504.03592" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/13-sym-cone-games/oscmwu_talk.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity and Last Iterate Convergence
+    </div>
   
-  <span ><a href="/author/jiduan-wu/">Jiduan Wu</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/ilyas-fatkhullin/">Ilyas Fatkhullin</a></span>, <span ><a href="/author/niao-he/">Niao He</a></span>
-  </span>
-  (2025).
-  <a href="/publication/7-bis-zero-sum-lqr-journal/">Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity and Last Iterate Convergence</a>.
-  SIAM Journal on Control and Optimization 63 (5), 3244-3271.
+    <div class="selected-pub-authors">
+      
+        
+        
+          Jiduan Wu
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Ilyas Fatkhullin
+        
+      
+        , 
+        
+          Niao He
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://epubs.siam.org/doi/10.1137/23M1626104" target="_blank" rel="noopener">
-    
-    Journal
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2309.04272.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            SIAM Journal on Control and Optimization 63 (5), 3244-3271
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://epubs.siam.org/doi/10.1137/23M1626104" target="_blank" rel="noopener">
+            Journal
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2309.04272.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players
+    </div>
   
-  <span ><a href="/author/pragnya-alatur/">Pragnya Alatur</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat*</a></span>, <span ><a href="/author/niao-he/">Niao He</a></span>
-  </span>
-  (2024).
-  <a href="/publication/11-pmd-mpgs/">Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</a>.
-  IEEE CDC 2024. *corresponding author.
+    <div class="selected-pub-authors">
+      
+        
+        
+          Pragnya Alatur
+        
+      
+        , 
+        
+          Anas Barakat*
+        
+      
+        , 
+        
+          Niao He
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/11-pmd-mpgs/slides_cdc24.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/document/10885842" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2408.08075" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            IEEE CDC 2024. *corresponding author
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://ieeexplore.ieee.org/document/10885842" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2408.08075" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/11-pmd-mpgs/slides_cdc24.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Independent Learning in Constrained Markov Potential Games
+    </div>
   
-  <span ><a href="/author/philip-jordan/">Philip Jordan</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/niao-he/">Niao He</a></span>
-  </span>
-  (2023).
-  <a href="/publication/8-independent-cmpg/">Independent Learning in Constrained Markov Potential Games</a>.
-  AISTATS 2024.
+    <div class="selected-pub-authors">
+      
+        
+        
+          Philip Jordan
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Niao He
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/8-independent-cmpg/poster_aistats24.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/8-independent-cmpg/prez_indep_cmpg.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://proceedings.mlr.press/v238/jordan24a.html" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2402.17885.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            AISTATS 2024
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://proceedings.mlr.press/v238/jordan24a.html" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2402.17885.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/8-independent-cmpg/prez_indep_cmpg.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/8-independent-cmpg/poster_aistats24.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity
+    </div>
   
-  <span ><a href="/author/jiduan-wu/">Jiduan Wu</a></span>, <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/ilyas-fatkhullin/">Ilyas Fatkhullin</a></span>, <span ><a href="/author/niao-he/">Niao He</a></span>
-  </span>
-  (2023).
-  <a href="/publication/7-zero-sum-lqr/">Learning Zero-Sum Linear Quadratic Games with Improved Sample Complexity</a>.
-  IEEE CDC 2023.
+    <div class="selected-pub-authors">
+      
+        
+        
+          Jiduan Wu
+        
+      
+        , 
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Ilyas Fatkhullin
+        
+      
+        , 
+        
+          Niao He
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10384025" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2309.04272.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            IEEE CDC 2023
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://ieeexplore.ieee.org/abstract/document/10384025" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2309.04272.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
+    
       
     
 
@@ -2634,146 +2464,140 @@ I develop algorithms and guarantees by identifying latent structure—such as hi
   </div>
   <div class="col-12 col-lg-8">
 
-    <h3 id="online-learning-under-limited-feedback">Online Learning under Limited Feedback</h3>
-<p><em>Keywords: online learning, bandit feedback, preference feedback, hidden convexity, non-convex optimization.</em></p>
+    <h3 id="online-learning-with-hidden-structure-and-limited-feedback">Online Learning with Hidden Structure and Limited Feedback</h3>
+<!-- *Keywords: online learning, bandit feedback, preference feedback, hidden convexity, non-convex optimization.* -->
+<p>I study online learning when favorable structure may be hidden and feedback is limited or indirect.
+My work asks when latent geometry can restore tractability, when weak feedback—such as pairwise preferences—fundamentally limits what can be identified or learned,
+and how to design learning objectives and algorithms that remain meaningful under such informational constraints.</p>
 
 
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Learning in Continuous Games from Pairwise Preference Feedback
+    </div>
   
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>
-  </span>
-  (2026).
-  <a href="/publication/19-learning-cont-games-pref-feedback/">Learning in Continuous Games from Pairwise Preference Feedback</a>.
-  
-  <p>
-
-
-
-
-
-
-
-
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+    </div>
   
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2610.05428" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            Preprint
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2610.05428" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/andreas-kontogiannis/">Andreas Kontogiannis</a></span>, <span ><a href="/author/vasilis-pollatos/">Vasilis Pollatos</a></span>, <span ><a href="/author/ioannis-panageas/">Ioannis Panageas</a></span>, <span ><a href="/author/antonios-varvitsiotis/">Antonios Varvitsiotis</a></span>
-  </span>
-  (2026).
-  <a href="/publication/18-online-hidden-convex/">Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</a>.
-  NeurIPS 2026.
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Andreas Kontogiannis
+        
+      
+        , 
+        
+          Vasilis Pollatos
+        
+      
+        , 
+        
+          Ioannis Panageas
+        
+      
+        , 
+        
+          Antonios Varvitsiotis
+        
+      
+    </div>
   
-  <p>
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2605.26373" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            NeurIPS 2026
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2605.26373" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
+    
       
     
 
@@ -2870,312 +2694,238 @@ I develop algorithms and guarantees by identifying latent structure—such as hi
   </div>
   <div class="col-12 col-lg-8">
 
-    <h3 id="stochastic-optimization">Stochastic Optimization</h3>
-<p><em>Keywords:  Stochastic approximation, Dynamical systems, non-convex stochastic optimization, adaptive gradient methods.</em></p>
+    <h3 id="earlier-work-stochastic-optimization">Earlier Work: Stochastic Optimization</h3>
+<!-- *Keywords:  Stochastic approximation, Dynamical systems, non-convex stochastic optimization, adaptive gradient methods.* -->
+<p>My earlier work studied stochastic approximation and non-convex
+optimization, including adaptive methods and dynamical systems
+perspectives on stochastic algorithms.</p>
 
 
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Stochastic optimization with momentum:  convergence, fluctuations, and traps avoidance
+    </div>
   
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Pascal Bianchi
+        
+      
+        , 
+        
+          Walid Hachem
+        
+      
+        , 
+        
+          Sholom Schechtman
+        
+      
+    </div>
   
 
-  <span class="article-metadata li-cite-author">
-    
+<div class="selected-pub-bottom research-pub">
 
-  
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/pascal-bianchi/">Pascal Bianchi</a></span>, <span ><a href="/author/walid-hachem/">Walid Hachem</a></span>, <span ><a href="/author/sholom-schechtman/">Sholom Schechtman</a></span>
-  </span>
-  (2021).
-  <a href="/publication/3-adamplus20/">Stochastic optimization with momentum:  convergence, fluctuations, and traps avoidance</a>.
-  Electronic Journal of Statistics 15 (2), 3892-3947.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1214/21-EJS1880" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2012.04002.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1214/21-EJS1880" target="_blank" rel="noopener">
-    
-    Journal
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            Electronic Journal of Statistics 15 (2), 3892-3947
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2012.04002.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://doi.org/10.1214/21-EJS1880" target="_blank" rel="noopener">
+            Journal
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Convergence and Dynamical Behavior of the ADAM Algorithm for Non-Convex Stochastic Optimization
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/pascal-bianchi/">Pascal Bianchi</a></span>
-  </span>
-  (2020).
-  <a href="/publication/1-continuous-adam/">Convergence and Dynamical Behavior of the ADAM Algorithm for Non-Convex Stochastic Optimization</a>.
-  SIAM Journal on Optimization, 31 (1), 244-274.
-  
-  <p>
-
-
-
-
-
-
-
-
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Pascal Bianchi
+        
+      
+    </div>
   
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/continuous-adam/poster_iccopt.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/continuous-adam/slides_symposium_mlds_2020.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=lFP4SADU888&amp;list=PLArBKNfJxuukSCK1nVtlOaxZtu5nBTgur&amp;index=3" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1137/19M1263443" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1810.02263.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1137/19M1263443" target="_blank" rel="noopener">
-    
-    Journal
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            SIAM Journal on Optimization, 31 (1), 244-274
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/1810.02263.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="https://doi.org/10.1137/19M1263443" target="_blank" rel="noopener">
+            Journal
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/continuous-adam/slides_symposium_mlds_2020.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/continuous-adam/poster_iccopt.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
-      
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
     
+      
+        <div class="selected-pub">
 
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Convergence Rates of a Momentum Algorithm with Bounded Adaptive Step Size for Non-Convex Optimization
+    </div>
   
-  <span ><a href="/author/anas-barakat/">Anas Barakat</a></span>, <span ><a href="/author/pascal-bianchi/">Pascal Bianchi</a></span>
-  </span>
-  (2019).
-  <a href="/publication/2-adam-discrete/">Convergence Rates of a Momentum Algorithm with Bounded Adaptive Step Size for Non-Convex Optimization</a>.
-  ACML 2020.
-  
-  <p>
-
-
-
-
-
-
-
-
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+        , 
+        
+          Pascal Bianchi
+        
+      
+    </div>
   
 
+<div class="selected-pub-bottom research-pub">
 
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/adam-discrete/poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/adam-discrete/OPT2019_slides_paper-15.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://proceedings.mlr.press/v129/barakat20a.html" target="_blank" rel="noopener">
-    
-    Proceedings
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1911.07596v2.pdf" target="_blank" rel="noopener">
-    
-    Arxiv
-  </a>
-
-</p>
-
-  
-  
+        
+          <span class="selected-pub-venue">
+            ACML 2020
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+      
+          <a href="http://proceedings.mlr.press/v129/barakat20a.html" target="_blank" rel="noopener">
+            Proceedings
+          </a>
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/1911.07596v2.pdf" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/adam-discrete/OPT2019_slides_paper-15.pdf" target="_blank" rel="noopener">Slides</a>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+          <a href="publication/adam-discrete/poster.pdf" target="_blank" rel="noopener">Poster</a>
+        
+      
+        
+      
 </div>
 
+    
       
     
 

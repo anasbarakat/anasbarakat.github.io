@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anas Barakat</title>
+    <title>Anas Barakat* | Anas Barakat</title>
     <link>https://anasbarakat.github.io/author/anas-barakat/</link>
       <atom:link href="https://anasbarakat.github.io/author/anas-barakat/index.xml" rel="self" type="application/rss+xml" />
-    <description>Anas Barakat</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <description>Anas Barakat*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
-      <title>Anas Barakat</title>
+      <title>Anas Barakat*</title>
       <link>https://anasbarakat.github.io/author/anas-barakat/</link>
     </image>
     
     <item>
-      <title>Learning in Continuous Games from Pairwise Preference Feedback</title>
-      <link>https://anasbarakat.github.io/publication/19-learning-cont-games-pref-feedback/</link>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://anasbarakat.github.io/publication/19-learning-cont-games-pref-feedback/</guid>
+      <title>Independent Policy Mirror Descent for Markov Potential Games: Scaling to Large Number of Players</title>
+      <link>https://anasbarakat.github.io/publication/11-pmd-mpgs/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/11-pmd-mpgs/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</title>
+  </channel>
+</rss>
+e>Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback</title>
       <link>https://anasbarakat.github.io/publication/18-online-hidden-convex/</link>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
       <guid>https://anasbarakat.github.io/publication/18-online-hidden-convex/</guid>
@@ -174,6 +175,7 @@
     
   </channel>
 </rss>
+#34;selected-pub&#34;&gt;
   &lt;div class=&#34;selected-pub-title&#34;&gt;
   &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
     Online Learning on Hidden-Convex Losses via Algorithmic Equivalence: Optimal Regret, Geometric Barrier, and Bandit Feedback
