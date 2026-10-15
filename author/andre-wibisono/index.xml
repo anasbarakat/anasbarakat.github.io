@@ -5,12 +5,20 @@
     <link>https://anasbarakat.github.io/author/andre-wibisono/</link>
       <atom:link href="https://anasbarakat.github.io/author/andre-wibisono/index.xml" rel="self" type="application/rss+xml" />
     <description>Andre Wibisono</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
       <title>Andre Wibisono</title>
       <link>https://anasbarakat.github.io/author/andre-wibisono/</link>
     </image>
+    
+    <item>
+      <title>Linear Last-Iterate Convergence Rates for Optimistic Learning in Harmonic Games</title>
+      <link>https://anasbarakat.github.io/publication/20-linear-last-it-harmonic-games/</link>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/20-linear-last-it-harmonic-games/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>When and Why is Optimistic Multiplicative Weights Slow? The Geometry of Energy Dissipation</title>

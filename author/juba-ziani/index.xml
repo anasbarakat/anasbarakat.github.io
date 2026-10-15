@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juba Ziani | Anas Barakat</title>
+    <link>https://anasbarakat.github.io/author/juba-ziani/</link>
+      <atom:link href="https://anasbarakat.github.io/author/juba-ziani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Juba Ziani</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://anasbarakat.github.io/images/icon_hu_89670fa8ef68bbc2.png</url>
+      <title>Juba Ziani</title>
+      <link>https://anasbarakat.github.io/author/juba-ziani/</link>
+    </image>
+    
+    <item>
+      <title>Linear Last-Iterate Convergence Rates for Optimistic Learning in Harmonic Games</title>
+      <link>https://anasbarakat.github.io/publication/20-linear-last-it-harmonic-games/</link>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://anasbarakat.github.io/publication/20-linear-last-it-harmonic-games/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
