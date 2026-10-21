@@ -755,8 +755,8 @@
     
 
     <div style="text-align: justify"> 
-<p>My research develops foundations and algorithms for sequential and strategic decision-making when objectives extend beyond expected cumulative reward, feedback is limited, and multiple adaptive agents interact.
-My work lies at the intersection of optimization, reinforcement learning, and learning in games, with a particular interest in emerging problems in modern AI, including post-training, AI alignment, and multi-agent learning.</p>
+<!-- My research develops foundations and algorithms for sequential and strategic decision-making when objectives extend beyond expected cumulative reward, feedback is limited, and multiple adaptive agents interact. 
+My work lies at the intersection of optimization, reinforcement learning, and learning in games, with a particular interest in emerging problems in modern AI, including post-training, AI alignment, and multi-agent learning. -->
 <!-- My research lies at the intersection of optimization, reinforcement learning, and learning in games. 
 I develop optimization foundations and algorithms for sequential decision-making, 
 with a focus on richer objectives, strategic interactions, and limited feedback, motivated by emerging challenges in modern AI systems. -->
@@ -765,28 +765,28 @@ working with <a href="https://georgiospiliouras.com/">Georgios Piliouras</a> and
 <a href="https://sites.google.com/site/antoniosvarvitsiotis/">Antonios Varvitsiotis</a>.
 Previously, I was a postdoctoral fellow at ETH Zurich working with
 <a href="https://odi.inf.ethz.ch/niaohe.html">Niao He</a>.
-I received my PhD in mathematics and computer science from
+I received my PhD in Applied Mathematics and Computer Science from
 <a href="https://www.ip-paris.fr/en/home-en/">Institut Polytechnique de Paris</a>
 (<a href="https://www.telecom-paris.fr/en/home">Télécom Paris</a>), advised by
 <a href="https://bianchi.wp.imt.fr/">Pascal Bianchi</a> and
 <a href="http://www-syscom.univ-mlv.fr/~whachem/">Walid Hachem</a>.</p>
 <h3 id="research">Research</h3>
-<p><strong>Optimization for Sequential and Strategic Decision-Making</strong></p>
-<p>My research develops foundations and algorithms for decision-making beyond classical assumptions on objectives, feedback, and agent interactions, spanning three complementary directions:</p>
-<ul>
-<li>
-<p><strong>Policy optimization beyond expected additive rewards:</strong>
-I study reinforcement learning and policy optimization when objectives depend nonlinearly on distributions of states, trajectories, or model responses, including general-utility RL and modern post-training.</p>
-</li>
-<li>
-<p><strong>Learning in strategic and dynamic environments:</strong>
-I study decentralized learning in nonstationary environments where multiple agents interact using game theory, including static, Markov and continuous-state dynamical games, with a focus on learning dynamics, stability, and convergence to equilibria.</p>
-</li>
-<li>
-<p><strong>Online learning with hidden structure and limited feedback:</strong>
-I study when learning remains possible despite apparent nonconvexity or restricted feedback. My work exploits latent structure such as hidden convexity and develops algorithms that learn directly from bandit or pairwise preference feedback.</p>
-</li>
-</ul>
+<p><strong>Optimization and Learning for Reliable AI Agents</strong></p>
+<p>My research lies at the intersection of optimization, reinforcement learning, and game theory.
+I develop foundations and algorithms for sequential and strategic learning, with a current focus on reliable AI post-training and learning and incentive design for interacting AI agents.</p>
+<!-- My research develops foundations and algorithms at the intersection of optimization, reinforcement learning, and game theory. I study how learning changes when objectives go beyond expected additive rewards, agents interact strategically in evolving environments, and feedback is limited, with a current focus on reliable AI post-training and learning and incentive design for interacting AI agents. -->
+<!-- **Optimization for Sequential and Strategic Decision-Making**
+
+My research develops foundations and algorithms for decision-making beyond classical assumptions on objectives, feedback, and agent interactions, spanning three complementary directions:
+
+- **Policy optimization beyond expected additive rewards:** 
+  I study reinforcement learning and policy optimization when objectives depend nonlinearly on distributions of states, trajectories, or model responses, including general-utility RL and modern post-training.
+
+- **Learning in strategic and dynamic environments:**
+  I study decentralized learning in nonstationary environments where multiple agents interact using game theory, including static, Markov and continuous-state dynamical games, with a focus on learning dynamics, stability, and convergence to equilibria.
+
+- **Online learning with hidden structure and limited feedback:** 
+  I study when learning remains possible despite apparent nonconvexity or restricted feedback. My work exploits latent structure such as hidden convexity and develops algorithms that learn directly from bandit or pairwise preference feedback.  -->
 <!-- **Research interests:** 
 - Online Learning & Optimization  
 - Reinforcement Learning 
@@ -1151,10 +1151,14 @@ I study when learning remains possible despite apparent nonconvexity or restrict
   </div>
   <div class="col-12 col-lg-8">
 
-    <h3 id="policy-optimization-beyond-expected-additive-rewards">Policy Optimization Beyond Expected Additive Rewards</h3>
+    <h3 id="policy-optimization-and-reliable-post-training">Policy Optimization and Reliable Post-Training</h3>
 <!-- *Keywords: policy gradient methods, general utility RL, convex RL, LLM post-training.*-->
-<p>I study policy optimization when objectives depend nonlinearly on the distribution of trajectories or model responses, rather than on expected cumulative reward alone.
-My work develops scalable and globally convergent methods for general utility reinforcement learning, risk-sensitive objectives, and modern post-training objectives.</p>
+<p>I study policy optimization when objectives extend beyond standard expected additive rewards.
+My work designs and analyzes policy gradient methods for general utility reinforcement learning and related nonlinear objectives, with global optimality guarantees.
+More recently, I have studied objective design and policy optimization for LLM post-training, where related nonlinear objectives arise in practice.
+Going forward, I am interested in foundations and algorithms for reliable reasoning, including sequential calibration and the use of calibrated uncertainty to guide inference.</p>
+<!-- I study policy optimization when objectives depend nonlinearly on the distribution of trajectories or model responses, rather than on expected cumulative reward alone. 
+My work develops scalable and globally convergent methods for general utility reinforcement learning, risk-sensitive objectives, and modern post-training objectives. -->
 
 
     
@@ -1785,10 +1789,13 @@ My work develops scalable and globally convergent methods for general utility re
   </div>
   <div class="col-12 col-lg-8">
 
-    <h3 id="learning-in-strategic-and-dynamic-environments">Learning in Strategic and Dynamic Environments</h3>
+    <h3 id="multi-agent-learning-in-strategic-and-dynamic-environments">Multi-Agent Learning in Strategic and Dynamic Environments</h3>
+<p>I study the learning dynamics of multiple adaptive agents interacting in strategic and evolving environments under limited feedback.
+My work develops foundations and algorithms for learning in static, Markov, and dynamical games, with guarantees for convergence, equilibrium learning, and regret in settings that include adversarial disturbances and limited or preference feedback.
+Going forward, I am interested in coupled learning and incentive design for interacting AI agents acting on behalf of different principals in agentic markets.</p>
 <!-- *Keywords: learning in games, game dynamics, multi-agent RL, Markov games with general utilities, Markov potential games, continuous games with state dynamics, game theory.* -->
-<p>I study decentralized learning in strategic environments, from static games to Markov and continuous-state dynamical games.
-My work uses geometric and game-theoretic structure to understand when learning dynamics converge, cycle, or become unstable, and to design algorithms with equilibrium and regret guarantees.</p>
+<!-- I study decentralized learning in strategic environments, from static games to Markov and continuous-state dynamical games. 
+My work uses geometric and game-theoretic structure to understand when learning dynamics converge, cycle, or become unstable, and to design algorithms with equilibrium and regret guarantees. -->
 
 
     
@@ -1857,6 +1864,60 @@ My work uses geometric and game-theoretic structure to understand when learning 
           
       
           <a href="https://arxiv.org/pdf/2610.18560" target="_blank" rel="noopener">
+            arXiv
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+</div>
+
+    
+      
+    
+      
+        <div class="selected-pub">
+
+    <div class="selected-pub-title">
+      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+      Learning in Continuous Games from Pairwise Preference Feedback
+    </div>
+  
+    <div class="selected-pub-authors">
+      
+        
+        
+          <strong>Anas Barakat</strong>
+        
+      
+    </div>
+  
+
+<div class="selected-pub-bottom research-pub">
+
+        
+          <span class="selected-pub-venue">
+            Preprint
+          </span>
+        
+      
+        
+          <span class="selected-pub-separator">·</span>
+      
+          
+          
+            
+          
+      
+          <a href="https://arxiv.org/pdf/2610.05428" target="_blank" rel="noopener">
             arXiv
           </a>
         
@@ -2517,7 +2578,7 @@ My work uses geometric and game-theoretic structure to understand when learning 
   
   
 
-  <section id="research-c-online-learning" class="home-section wg-pages   "  >
+  <section id="research-d-optim" class="home-section wg-pages   "  >
     <div class="container">
       
 
@@ -2572,67 +2633,14 @@ My work uses geometric and game-theoretic structure to understand when learning 
   </div>
   <div class="col-12 col-lg-8">
 
-    <h3 id="online-learning-with-hidden-structure-and-limited-feedback">Online Learning with Hidden Structure and Limited Feedback</h3>
-<!-- *Keywords: online learning, bandit feedback, preference feedback, hidden convexity, non-convex optimization.* -->
-<p>I study online learning when favorable structure may be hidden and feedback is limited or indirect.
-My work asks when latent geometry can restore tractability, when weak feedback—such as pairwise preferences—fundamentally limits what can be identified or learned,
-and how to design learning objectives and algorithms that remain meaningful under such informational constraints.</p>
+    <!-- ### Earlier Work: Stochastic Optimization -->
+<h3 id="broader-foundations-in-optimization-and-learning">Broader Foundations in Optimization and Learning</h3>
+<!-- *Keywords:  Stochastic approximation, Dynamical systems, non-convex stochastic optimization, adaptive gradient methods.* -->
+<p>I also study online learning and stochastic optimization. In particular, my recent work studies online learning with hidden-convex losses, including under bandit feedback.
+This perspective connects to my work on general utility reinforcement learning and Markov games, where apparently nonconvex policy-space objectives inherit favorable structure from their underlying occupancy-measure representations.</p>
+<p>My earlier PhD work studied adaptive gradient methods for nonconvex stochastic optimization through dynamical systems and stochastic approximation perspectives.</p>
 
 
-    
-      
-        <div class="selected-pub">
-
-    <div class="selected-pub-title">
-      <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-      Learning in Continuous Games from Pairwise Preference Feedback
-    </div>
-  
-    <div class="selected-pub-authors">
-      
-        
-        
-          <strong>Anas Barakat</strong>
-        
-      
-    </div>
-  
-
-<div class="selected-pub-bottom research-pub">
-
-        
-          <span class="selected-pub-venue">
-            Preprint
-          </span>
-        
-      
-        
-          <span class="selected-pub-separator">·</span>
-      
-          
-          
-            
-          
-      
-          <a href="https://arxiv.org/pdf/2610.05428" target="_blank" rel="noopener">
-            arXiv
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-</div>
-
-    
-      
     
       
         <div class="selected-pub">
@@ -2707,108 +2715,6 @@ and how to design learning objectives and algorithms that remain meaningful unde
 
     
       
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="research-d-optim" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1></h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    <h3 id="earlier-work-stochastic-optimization">Earlier Work: Stochastic Optimization</h3>
-<!-- *Keywords:  Stochastic approximation, Dynamical systems, non-convex stochastic optimization, adaptive gradient methods.* -->
-<p>My earlier work studied stochastic approximation and non-convex
-optimization, including adaptive methods and dynamical systems
-perspectives on stochastic algorithms.</p>
-
-
     
       
         <div class="selected-pub">
@@ -3640,6 +3546,82 @@ Currently: Research Engineer at OCamlPro.</p>
     
 
   </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="research-c-online-learning" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <!-- +++
+widget = "pages"
+headless = true
+active = true
+weight = 72
+title = ""        # no extra section header
+subtitle = ""
+identifier = "research-online-learning"
+
+[content]
+  page_type = "publication"
+  count = 0
+  order = "desc"
+  # Use whatever taxonomy you maintain (tag/category/authors/etc.)
+  [content.filters]
+    tag = "Online Learning"   # <-- filter for Subarea A
+
+[design]
+  view = 4
++++ -->
+<!-- ### Online Learning with Hidden Structure and Limited Feedback
+
+*Keywords: online learning, bandit feedback, preference feedback, hidden convexity, non-convex optimization.*
+I study online learning when favorable structure may be hidden and feedback is limited or indirect. 
+My work asks when latent geometry can restore tractability, when weak feedback—such as pairwise preferences—fundamentally limits what can be identified or learned, 
+and how to design learning objectives and algorithms that remain meaningful under such informational constraints. -->
+
+    </div>
+  
 </div>
 
     </div>
